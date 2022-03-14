@@ -18,8 +18,8 @@
 		echo "<td> $from_location </td>";
 		echo "<td> $to_location </td>";
 		echo "<td> $status </td>";
-		echo "<td> <a href = '#'> addbooking </a> </td>";
-		echo "<td> <a href = '#'> confirmbooking </a> </td>";
+		echo "<td> <a href = 'appt_input.php'> addbooking </a> </td>";
+		echo "<td> <a href = 'confirm_input.php?id=$id&email=$email&appt_date=$appt_date&from_location=$from_location&to_location=$to_location&status=$status'> confirmbooking </a> </td>";
 		echo "</tr> \n";
 	}
 
